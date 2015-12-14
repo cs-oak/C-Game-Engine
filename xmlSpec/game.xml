@@ -1,0 +1,267 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Chirantan Sharma</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<frameMax>400</frameMax>
+<username>csharma</username>
+
+<hud>
+  <height>300</height>
+  <width>325</width>
+</hud>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>854</width>
+  <height>14800</height>
+</world>
+
+<clock>
+  <fpsLoc x="10" y="10"/>
+  <secondsLoc x="10" y="30"/>
+</clock>
+
+<galaxy>
+  <file>images/galaxy.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>4</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>823</width>
+  <height>726</height>
+  <transparency>false</transparency>
+</galaxy>
+
+<woods>
+  <file>images/lowfloor.png</file>
+  <red>193</red>
+  <green>854</green>
+  <blue>488</blue>
+  <factor>3</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>854</width>
+  <height>1000</height>
+  <transparency>true</transparency>
+</woods>
+
+<mountain>
+  <file>images/shipfloor.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>854</width>
+  <height>600</height>
+  <transparency>true</transparency>
+</mountain>
+
+<ground>
+  <file>images/ground.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1200</width>
+  <height>480</height>
+  <transparency>false</transparency>
+</ground>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>255</green>
+  <blue>255</blue>
+  <unused>255</unused>
+</font>
+
+
+<alien>
+  <file>images/alien.png</file>
+  <startLoc x="700" y="280"/>
+
+  <frames>6</frames>
+  <frameInterval>200</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>57</width>
+  <height>60</height>
+  <speedX>-300</speedX>
+  <speedY>400</speedY>
+  <type>0</type>
+  <transparency>true</transparency>
+  <chunk>
+    <size>25</size>
+    <distance>300</distance>
+  </chunk>
+</alien>
+
+<alien2>
+  <file>images/alien2.png</file>
+  <startLoc x="700" y="280"/>
+
+  <frames>5</frames>
+  <frameInterval>150</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>38</width>
+  <height>80</height>
+  <speedX>-100</speedX>
+  <speedY>200</speedY>
+  <type>0</type>
+  <transparency>true</transparency>
+  <chunk>
+    <size>25</size>
+    <distance>300</distance>
+  </chunk>
+</alien2>
+
+<alien3>
+  <file>images/alien3.png</file>
+  <startLoc x="700" y="280"/>
+
+  <frames>5</frames>
+  <frameInterval>120</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>35</width>
+  <height>80</height>
+  <speedX>-100</speedX>
+  <speedY>200</speedY>
+  <type>0</type>
+  <transparency>true</transparency>
+  <chunk>
+    <size>25</size>
+    <distance>300</distance>
+  </chunk>
+</alien3>
+
+<crystal>
+  <file>images/crystals.png</file>
+  <startLoc x="700" y="280"/>
+
+  <frames>5</frames>
+  <frameInterval>100</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>32</width>
+  <height>30</height>
+  <speedX>-700</speedX>
+  <speedY>0</speedY>
+  <type>1</type>
+  <transparency>true</transparency>
+  <chunk>
+    <size>15</size>
+    <distance>200</distance>
+  </chunk>
+</crystal>
+
+<bullets>
+  <file>images/bullets.png</file>
+  <startLoc x="700" y="280"/>
+
+  <frames>4</frames>
+  <frameInterval>80</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>19</width>
+  <height>17</height>
+  <speedX>-400</speedX>
+  <speedY>50</speedY>
+  <type>2</type>
+  <transparency>true</transparency>
+</bullets>
+
+<laser>
+  <file>images/laser.png</file>
+  <startLoc x="0" y="0"/>
+
+  <frames>2</frames>
+  <frameInterval>100</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>63</width>
+  <height>490</height>
+  <speedX>-700</speedX>
+  <speedY>0</speedY>
+  <type>2</type>
+  <transparency>true</transparency>
+</laser>
+
+<sheild>
+  <file>images/sheild.png</file>
+  <startLoc x="700" y="280"/>
+
+  <frames>2</frames>
+  <frameInterval>100</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>85</width>
+  <height>70</height>
+  <speedX>-0</speedX>
+  <speedY>0</speedY>
+  <type>2</type>
+  <transparency>true</transparency>
+</sheild>
+
+<fireballs>
+  <file>images/fireballs.png</file>
+  <startLoc x="320" y="140"/>
+
+  <frames>5</frames>
+  <frameInterval>200</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>59</width>
+  <height>60</height>
+  <speedX>110</speedX>
+  <speedY>110</speedY>
+  <transparency>true</transparency>
+</fireballs>
+
+<ship>
+  <file>images/ship.png</file>
+  <startLoc x="426" y="14700"/>
+
+  <frames>3</frames>
+  <frameInterval>100</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>40</width>
+  <height>50</height>
+  <speedX>600</speedX>
+  <speedY>-200</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>500</distance>
+  </chunk>
+</ship>
+
+</GameData>
