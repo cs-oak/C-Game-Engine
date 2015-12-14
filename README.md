@@ -8,7 +8,11 @@ used in this game can be found in the links mentioned below:
 
 
 http://fc00.deviantart.net/fs71/f/2010/065/3/0/Spaceship_sprites_by_arboris.png
+
 http://www.santarosatile.com/wp-content/uploads/2013/09/Black-Galaxy.jpg
+
 https://www.filterforge.com/filters/11733.jpg
+
 http://previewcf.turbosquid.com/Preview/2014/08/02__01_00_40/metal_floor1_2048.jpgcbc48cca-388f-40ed-b7c4-2633a7a7933dLarge.jpg
+
 http://www.spriters-resource.com/nes/guardianlegend/
